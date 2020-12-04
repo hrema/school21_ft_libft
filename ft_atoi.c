@@ -16,9 +16,9 @@ static char	*split(const char *nptr, int *sign)
 
 int			ft_atoi(const char *nptr)
 {
-	int					sign;
-	unsigned long long	number;
-	char				*ptr;
+	int				sign;
+	unsigned long	number;
+	char			*ptr;
 
 	number = 0;
 	sign = 1;
