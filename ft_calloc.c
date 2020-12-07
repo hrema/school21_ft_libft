@@ -6,6 +6,6 @@ void	*ft_calloc(size_t nmemb, size_t size)
 
 	if (!(ptr = (unsigned char *)malloc(nmemb * size)))
 		return (NULL);
-	ft_memset(ptr, 0, nmemb * size);
+	ft_bzero(ptr, nmemb * size);
 	return (void *)(ptr);
 }
